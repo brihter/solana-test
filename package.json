@@ -1,0 +1,20 @@
+{
+  "name": "solana-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx esbuild index.js --bundle --minify --outfile=dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/wallet-adapter-base": "^0.9.5",
+    "@solana/wallet-adapter-wallets": "^0.15.5",
+    "@solana/web3.js": "^1.36.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.27",
+    "npx": "^10.2.2"
+  }
+}
