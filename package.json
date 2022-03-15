@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx esbuild index.js --bundle --minify --outfile=dist/index.js"
+    "build": "npx esbuild index.js --bundle --minify --outfile=index.min.js"
   },
   "author": "",
   "license": "ISC",
