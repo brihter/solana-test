@@ -1,3 +1,2 @@
-import { getWalletAdapters } from '@solana/wallet-adapter-wallets'
-
-console.log(getWalletAdapters())
+import { PhantomWalletAdapter as adapter } from '@solana/wallet-adapter-wallets'
+console.log(new adapter({ network: {} }))
